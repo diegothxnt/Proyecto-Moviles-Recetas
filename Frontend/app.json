@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Recetas",
+    "slug": "Recetas",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/no.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/no.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FDF9F5"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.paladar.recetas"
+    },
+    "android": {
+      "package": "com.paladar.recetas",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/no.png",
+        "backgroundColor": "#FF6B35"
+      },
+      "softwareKeyboardLayoutMode": "resize",
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6dbe84af-b144-4483-92b7-7c970d43bc03"
+      }
+    }
+  }
+}
